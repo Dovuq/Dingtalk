@@ -3,8 +3,8 @@
 using namespace std;
 int main() {
     system("pause");
-    SetCursorPos(1330, 840);
     Sleep(2000);
+    SetCursorPos(1330, 840);
     for (int i=0;i<10000;i++)
     {
         mouse_event(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0);
